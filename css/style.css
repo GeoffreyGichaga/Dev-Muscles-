@@ -3,6 +3,7 @@
     margin: 0;padding:0;
     box-sizing: border-box;
     transition: all .2s linear;
+    overflow-x: hidden;
     
 }
 :root{
@@ -21,6 +22,7 @@ header{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0.5rem 2%;
 }
 .homePage .logo a{
     color: #fff;
@@ -34,25 +36,20 @@ header{
     font-size: 2rem;
     margin-left: 1.5rem;
 }
-.homePage .navLanding a:last-child{
-    margin-right: 2rem;
-}
+
 .logo a span{
     color: var(--orange);
 }
-.home .box-container{
+.home .box-container .question{
     color: #fff;
     font-size: 3.5rem;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    height: 300px;
-        
-        
+    -ms-transform: translate(-50%, -50%);    
 }
 .btnGet{
     font-size:2.5rem;
@@ -61,5 +58,12 @@ header{
     background-color: var(--orange);
     padding: .5rem 1rem;
     border-radius: .7rem;
-    margin-top:20rem ;
+    
+}
+.home .box-container .btnGetIt{
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
