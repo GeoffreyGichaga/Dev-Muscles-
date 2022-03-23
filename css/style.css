@@ -27,6 +27,14 @@ header {
     justify-content: space-between;
     padding: 0.5rem 2%;
     
+    
+}
+.nav-header{
+    position:fixed;
+    top:0;
+    width: 100%;
+
+
 }
 
 .aboutUs .logo a {
@@ -34,6 +42,8 @@ header {
     text-decoration: none;
     font-size: 2.5rem;
     margin-left: 1rem;
+    float: left;
+   
 }
 
 .aboutUs .navLanding2 a {
