@@ -46,7 +46,7 @@ header {
 }
 .aboutUs1 h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #fff;
 }
 
@@ -189,7 +189,7 @@ header {
     text-align: center;
 }
 .trainers-heading a{
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -215,10 +215,13 @@ header {
 }
 .pricing .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    margin-top: 8rem;
     margin-bottom: 5rem;
-    margin: 2rem 5rem 7rem 7rem;
+    gap: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
 }
 .pricing {
     background-color: #171717;
@@ -232,9 +235,11 @@ header {
     background:#171717;
     border-radius: .5rem;
     
+    
 }
 .pricing .box-container .box:nth-child(2) {
-    
+     -webkit-transform: scale(1.2);
+     transform: scale(1.2);
 }
 .pricing .box-container .box h3 {
   font-size: 2rem;
@@ -275,10 +280,11 @@ header {
 
 .pricing h3{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #fff;
     font-weight: 500;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 .pricing h3 span{
    color: var(--orange);
