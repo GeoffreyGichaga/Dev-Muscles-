@@ -33,8 +33,12 @@ header {
     position:fixed;
     top:0;
     width: 100%;
+    z-index: 2;
 
 
+}
+.aboutUs{
+    padding-top: 50px;
 }
 
 .aboutUs .logo a {
@@ -112,6 +116,15 @@ header {
 
 .courses .heading span{
     color: var(--orange);
+}
+
+.box{
+    position: relative;
+}
+.box .content p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .courses .box-container {
