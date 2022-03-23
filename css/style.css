@@ -318,10 +318,24 @@ header {
     margin-top: 1rem;
 }
 
+#register-button:hover{
+    background: #fff;
+    color: var(--orange);
+}
 .form-control {
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 8px;
+    margin-bottom: 20px;
+    
+    
+}
+#first_name #last_name #phone_number #email{
+    line-height:20px;
+    padding:20px 10px ;
+}
+.form-control:hover {
+    border-color: #ff5421;
+    
 }
 ::placeholder{
     color: white !important;
