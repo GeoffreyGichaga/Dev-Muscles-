@@ -10,10 +10,7 @@
 :root {
     --orange: #ff5421;
 }
-.active-page{
-    background-color: var(--orange);
-    
-}
+
 
 .aboutUs {
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),url(../images/barbell-1839087_1920.jpg);
@@ -162,7 +159,7 @@ header {
     color: #fff;
     padding: .5rem 0;
 }
-.link-btn {
+.link-btn  {
     margin-top: 1rem;
     display: inline-block;
     padding: .2rem 1rem;
@@ -344,4 +341,15 @@ header {
 }
 ::placeholder{
     color: white !important;
+}
+
+/* style read mores */
+
+
+#weight_lifting, #yoga, #boxing, #aerobics,
+ #legwork, #biceps{
+    display: none;
+    padding-left: 0px;
+    font-size: xx-large;
+ 
 }
