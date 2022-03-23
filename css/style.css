@@ -10,6 +10,10 @@
 :root {
     --orange: #ff5421;
 }
+.active-page{
+    background-color: var(--orange);
+    
+}
 
 .aboutUs {
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),url(../images/barbell-1839087_1920.jpg);
@@ -25,6 +29,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0.5rem 2%;
+    
 }
 
 .aboutUs .logo a {
