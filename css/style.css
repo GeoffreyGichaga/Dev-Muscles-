@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    overflow-x: hidden;
+
+}
+
+:root {
+    --orange: #ff5421;
+}
+
+.aboutUs {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),url(../images/barbell-1839087_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem 2%;
+}
+
+.aboutUs .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.aboutUs .navLanding2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.logo a span {
+    color: var(--orange);
+}
+.aboutUs1 h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.aboutUs1 .text{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.aboutUs1 .text p{
+    text-align: center;
+    font-size: 2.8rem;
+    color: #FEEDED;
+    
+}
+.aboutUs1 .text ul{
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.aboutUs1 span{
+    color: var(--orange);
+}
+.aboutUs1 .text ul i{
+    color: var(--orange);
+}
