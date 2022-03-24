@@ -17,29 +17,69 @@
             </ul>
         </nav>
     </div>
-    <div class="userdetails">
-        <form action="#">
-        <input type="text" id="firstname" name="email" placeholder="First name" required>
-        <input type="text" id="emailaddress" name="email" placeholder="Email address" required>
-        <input type="text" id="phonenumber" name="email" placeholder="Phone number" required>
-        <input type="text" id="lastname" name="email" placeholder="Last name" required>
+    <table class="tabledetails">
+        <tr>
+            <th></th>
+            <th>Basic plan</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="firstname" name="fname" placeholder="First name" required></td>
+            <td><input type="text" id="lastname" name="lname" placeholder="Last name" required></td>
+            <td></td>
+        </tr>
+        <br>
+        <tr>
+            <td><input type="text" id="emailaddress" name="email" placeholder="Email address" required></td>
+            <td></td>
+            <td></td>
 
-        Physical
-        <input id="physial" type="radio" name="physical" value="physical" required>
-        Online
-        <input id="online" type="radio" name="online" value="online" required>
-    </form>
-    </div>
-    <div class="subcri">
-        <form action="#">
-            <h3>Your Subscription</h3>
-            
+        </tr>
+        <tr>
+            <td><input type="text" id="phonenumber" name="pnumber" placeholder="Phone number" required></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input id="physial" type="radio" name="physical" placeholder="physical" required>
+            Physical</td>
+            <td><input id="physial" type="radio" name="online" placeholder="online" required>
+                Online</td>
+                <td></td>
+        </tr>
+    </table>
+    <table class="tablesub">
+        <tr>
+            <th>Your Subscription</th>
 
-            Card
-            <input id="physial" type="radio" name="physical" value="physical" required>
-            Mpesa
-            <input id="online" type="radio" name="online" value="online" required>
-        </form>
-    </div>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>USD 30</td>
+        </tr>
+        <hr>
+        <tr>
+            <td>Accessories</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Dumbel(5pieces)</td>
+            <td>USD 30</td>
+        </tr>
+        <hr>
+        <tr>
+            <td>Total</td>
+            <td>USD 60</td>
+
+        </tr>
+        <tr>
+            <td>Mode of payment</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input id="car" type="radio" name="card" value="card" required> Card</td>
+                <td><input id="mpesa" type="radio" name="mpesa" value="mpesa" required> Mpesa</td>
+        </tr>
+    </table>
 </body>
 </html>
