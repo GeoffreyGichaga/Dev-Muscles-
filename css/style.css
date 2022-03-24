@@ -195,9 +195,6 @@ header {
     text-decoration: none;
     
 }
-.link-btn{
-
-}
 .link-btn:hover {
     background: #fff;
     color: var(--orange);
