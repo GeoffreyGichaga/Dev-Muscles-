@@ -11,7 +11,10 @@
     let email_error = document.getElementById('emailaddress');
     let password_error = document.getElementById('password');
     let pass_error = document.getElementById('phonenumber');
-    
+    let card=document.getElementById('card');
+    let mpesa=document.getElementById('mpesa');
+
+
     firstName.addEventListener('textInput', first_Verify);
     lastName.addEventListener('textInput', last_Verify);
     email.addEventListener('textInput', email_Verify);
@@ -66,4 +69,14 @@
             return true;
         }
     }
+    
+function checkModeOfPayment(){
+    if(card.selected){
+        window.location='vis.html'
+    }
+    else{
+        window.location='saf.html'
+    }
+
+}
     
