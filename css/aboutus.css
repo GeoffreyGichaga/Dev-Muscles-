@@ -192,14 +192,14 @@
 
 .courses{
     background-color: #171717;
-    padding: 2rem 3rem;
 }
 .courses .heading{
     text-align: center;
-    font-size: 3rem;
     color: #fff;
-    font-weight: 500;
+    font-size: 40px;
     padding-bottom: 2rem;
+    font-family: 'Nunito Sans', sans-serif;    
+
 }
 
 .courses .heading span{
@@ -218,12 +218,14 @@
 
 .courses .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
 }
 
 .courses .box-container .box {
     border: 0.1rem solid rgba(255, 84, 33, 0.4);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px whitesmoke;
 }
 
 .courses .box-container .box:hover .image img {
@@ -231,7 +233,7 @@
 }
 
 .courses .box-container .box .image {
-    height: 25rem;
+    height: 20rem;
     overflow: hidden;
 }
 
@@ -242,7 +244,7 @@
 }
 
 .courses .box-container .box .content {
-    padding: 2rem;
+    padding: 3%;
 }
 .restrain{
     overflow-y: hidden;
@@ -256,7 +258,7 @@
 }
 
 .courses .box-container .box .content .icons span {
-    font-size: 1.7rem;
+    font-size: 17px;
     text-transform: capitalize;
     color: #fff;
 }
@@ -267,20 +269,22 @@
 }
 
 .courses .box-container .box .content h3 {
-    font-size: 2.3rem;
+    font-size: 22px;
     color: #fff;
     padding: .5rem 0;
 }
-.link-btn-1, .link-btn-2 , .link-btn-3, .link-bt-4, .link-btn-5, .link-btn-6 , .link-btn{
+.link-btn-1, .link-btn-2 , .link-btn-3, .link-btn-4, .link-btn-5, .link-btn-6 , .link-btn7{
     margin-top: 1rem;
     display: inline-block;
     padding: .2rem 1rem;
     background: var(--orange);
     color: #fff;
     cursor: pointer;
-    border-radius: .5rem;
-    font-size: 1.8rem;
+    font-size: 15px;
     text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    
     
 }
 
@@ -288,6 +292,44 @@
     background: #fff;
     color: var(--orange);
 }
+
+
+
+#weight_lifting, #yoga, #boxing, #aerobics,
+ #legwork, #biceps{
+    display: none;
+    padding-left: 0px;
+    font-size: 15px;
+    color: white;
+ 
+}
+.show-more{
+    display: block !important; 
+}
+.hide{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .trainers{
     background-color: #171717;
@@ -304,7 +346,7 @@
     text-align: center;
 }
 .trainers-heading a{
-    font-size: 3.4rem;
+    font-size: 30px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -312,39 +354,46 @@
 .trainers-heading a span{
     color: var(--orange);
 }
+
+
+
 .col-md-4 .trainer .card-body{
-    background-color: #4d4a4a;
     text-align: center;
 }
 .col-md-4 .trainer .card-body .card-title{
-    font-size: 2.3rem;
+    font-size: 20px;
     margin-top: 1rem;
     color: var(--orange)
 }
 .col-md-4 .trainer .card-body .card-text{
-    font-size: 2rem;
+    font-size: 30px;
     color: #fff;
 }
+
+
+
+
+
 .col-md-4 .trainer:hover img{
     transform: scale(1.1);   
 }
 .pricing .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-    gap: 2rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    gap: 35px;
     padding-top: 8rem;
     padding-bottom: 8rem;
     
 }
 .pricing {
     background-color: #171717;
-    padding: 2rem 3rem;
+    padding: 20px 20px;
     
 }
 .pricing .box-container .box {
-    padding: 2rem;
+    padding: 30px;
     text-align: center;
     border: 0.1rem solid #fff;
     background:#171717;
@@ -356,21 +405,22 @@
      -webkit-transform: scale(1.2);
      transform: scale(1.2);
 }
-.pricing .box-container .box h3 {
-  font-size: 2rem;
+.pricing .box-container .box h3
+{
+  font-size: 20px;
   color: #fff;
   padding-top: 1rem;
-  }
+}
 
 .pricing .box-container .box .price {
     padding: 1rem 0;
-    font-size: 6rem;
+    font-size: 20px;
     color: #fff;
     font-weight: bolder;
 }
 
 .pricing .box-container .box .price span {
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -379,7 +429,7 @@
 }
 
 .pricing .box-container .box .list p {
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 2;
     color: #fff;
 }
@@ -395,15 +445,42 @@
 
 .pricing h3{
     text-align: center;
-    font-size: 3.4rem;
+    font-size: 30px;
     color: #fff;
     font-weight: 500;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .pricing h3 span{
    color: var(--orange);
 }
+
+.link-btn
+{
+    border-radius: 2px;
+    background-color: #ff5421;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.link-btn:hover
+{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .register-now {
     background: #171717;
@@ -414,11 +491,11 @@
 }
 .register-now h3{
     text-align: center;
-    font-size: 3.4rem;
+    font-size: 40px;
     color: #fff;
     font-weight: 500;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .register-now h3 span{
    color: var(--orange);
@@ -426,16 +503,17 @@
 #register-button{
     background: var(--orange);
     color: #fff;
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-    font-size: 1.8rem;
+    padding: 7px;
+    border-radius: 2px;
+    font-size: 18px;
     text-decoration: none;
-    margin-top: 1rem;
+    margin-top: 20px;
+    border: none;
 }
 
 #register-button:hover{
     background: #fff;
-    color: var(--orange);
+    color: black;
 }
 .form-control {
     color: white;
@@ -454,40 +532,4 @@
 }
 ::placeholder{
     color: white !important;
-}
-
-/* style read mores */
-
-/* .text{
-    font-size: 24px;
-    color: aliceblue;
-    
-}
-.moretext{
-    display: none;
-    
-}
-.text.show-more .moreText{
-    
-    display: block;
-    
-
-}
-.text.show-more .dots{
-    display: none;
-} */
-
-#weight_lifting, #yoga, #boxing, #aerobics,
- #legwork, #biceps{
-    display: none;
-    padding-left: 0px;
-    font-size: xx-large;
-    color: white;
- 
-}
-.show-more{
-    display: block !important; 
-}
-.hide{
-    display: none !important;
 }
