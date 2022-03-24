@@ -368,11 +368,30 @@ header {
 
 /* style read mores */
 
+/* .text{
+    font-size: 24px;
+    color: aliceblue;
+    
+}
+.moretext{
+    display: none;
+    
+}
+.text.show-more .moreText{
+    
+    display: block;
+    
+
+}
+.text.show-more .dots{
+    display: none;
+} */
 
 #weight_lifting, #yoga, #boxing, #aerobics,
  #legwork, #biceps{
     display: none;
     padding-left: 0px;
     font-size: xx-large;
+    color: white;
  
 }
