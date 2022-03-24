@@ -15,253 +15,349 @@
 </head>
 <body>
     <section class="aboutUs container-fluid">
-        <header class="nav-header">
-            <div class="logo"><a href="#"><span>Dev</span> Muscles</a></div>
-            <div class="navLanding2">
-                <a href="../index.html">Home</a>
-                <a href="#aboutUs1">About Us</a>
-                <a href="#trainers">Trainers</a>
-                <a href="#courses">Our Courses</a>
-        
+        <!-- Navigation bar -->
+       <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span > 
+                    <img src="../images/menu .png" class="menutog" alt="">
+                </span>
+            </button>
+            
+            <div class="nav-brand">
+                <h4 id="Navbrand" class="mt-5"><span>Dev</span> Muscles</h4>
             </div>
-        </header>
-        <section class="aboutUs1" id="aboutUs1">
-            <h2>About <span> Us</span></h2>
-            <div class="text">
-                <p>We believe consistency is the <br> key to greater achievements</p>
-                <ul>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i> How to support your immune system</li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i> A guide to a 30 day fitness challenge</li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i> Guide to ease back-pain in the gym</li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i> Mental benefits of the exercises</li>
+
+            <div class="collapse navbar-collapse d-flex justify-content-end"  id="navBar">
+               
+
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="../index.html" class="nav-link mt-5">Home</a>
+                
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/aboutus.html" class="nav-link mt-5">About Us</a>
+                
+                    </li>
                     
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link mt-5"> Trainers</a>
+                
+                    </li>
+                    
+
+
+                   
+
+
+                    <li class="nav-item">
+                        <a href="../pages/login.html" class="nav-link mt-5">Login</a>
+                
+                    </li>
+
+                    
+
                 </ul>
+
+
+
                 
 
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center mt-5">
-                    <a href="#" class="aboutbtn">Read more</a>
-                </div>
-            </div>
-           
-        </section>
+
+        </div>
+
+    </nav>
+    <!-- End of Nav  --> 
+
+    <div class="container-fluid ">
+
+        <div class="abouttexts">
+            <h2 id="aboutUs1" class="text-center mt-5">About <span> Us</span></h2>
+        <p id="longtext2" class="text-center ">We believe consistency is the key to greater achievements</p>
+
+        </div>
        
-    </section>
-    <section class="courses" id="courses">
-        <div class="heading">Our <span>Courses</span></div>
-
-        <div class="box-container">
-            <div class="box">
-                <div class="image">
-                    <img src="../images/fitness-3502830_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
+        <div class="row row-cols-1 row-cols-md-3 g-2">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Health <span>Tips</span></h4>
+                        <p class="card-text">We help our clients in planning a healthy diet </p>
+                       
                     </div>
-                    <h3>Weight lifting</h3>
-                    <button id="link_1" class="link-btn-1" >Read More</button>
-                    <p id="weight_lifting" class="btnText"> Join our 1 hour weight lifting class to help build muscles burn body fat, strenghten your joints and reduce injury risk. This exercise also helps improve your heart health hence greatly reducing the risk or developing heart failures. </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="../images/yoga-3053487_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
-                    </div>
-                    <h3>Yoga</h3>
-                    <button id="link_2" class="link-btn-2">Read More</button>
-                    <p id="yoga" class="btnText"> Besides increasing flexibility, Yoga enhances athletic perfomance at the same time improving respiration. Join us today!</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="../images/jogging-1509003_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
-                    </div>
-                    <h3>Aerobics</h3>
-                    <button id="link_3" class="link-btn-3">Read More</button>
-                    <p id="aerobics" class="btnText"> This exercise is well known to better control blood sugar and in weight management and/or weight loss. </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="../images/girl-3253532_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
-                    </div>
-                    <h3>Boxing</h3>
-                    <button id="link_4" class="link-btn-4">Read More</button>
-                    <p id="boxing" class="btnText"> Join our 1 hour daily boxing classes that aim in improving cardiovascular health, overall body strength and hand-eye cordination. </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="../images/training-828760_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
-                    </div>
-                    <h3>Leg Work Outs</h3>
-                    <button id="link_5" class="link-btn-5">Read More</button>
-                    <p id="legwork" class="btnText"> Go for hikes without the fear of experiencing long muscle stiffness. Join us today from Monday to Saturday for 1 hour of leg work!</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="../images/fitness-957115_1920.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icons">
-                        <span> <i class="fas fa-calendar"></i> mon - sat </span>
-                        <span> <i class="fas fa-clock"></i> 1 hour </span>
-                    </div>
-                    <h3>Treadmill</h3>
-                    <button id="link_6" class="link-btn-6">Read More</button>
-                    <p id="biceps" class="btnText"> Tread mills helps build muscles, burn body fat, strenghten your joints and reduce injury risk. This exercise also helps improve your heart health hence greatly reducing the risk or developing heart failures.</p>
-                    
                 </div>
             </div>
 
-            
+
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Health <span>Tips</span></h4>
+                        <p class="card-text">A guide to a 30 day fitness challenge </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Health <span>Tips</span></h4>
+                        <p class="card-text">Mental benefits of the exercises </p>
+                       
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
-    <section class="trainers" id="trainers">
-            <div class="trainers-heading"><a href="#">Our <span>Trainers</span></a></div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card trainer">
-                        <div class="restrain">
-                            <img class="card-img-top" src="../images/Trainer_1.jpg" alt="trainer_!">
-                        </div>
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">Expert</h4>
-                            <p class="card-text"> Angelina Joe</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card trainer">
-                        <div class="restrain">
-                            <img class="card-img-top" src="../images/Trainer_2.jpg" alt="trainer_2">
-                        </div>
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">Expert Trainer</h4>
-                            <p class="card-text">Peter Ken</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card trainer">
-                        <div class="restrain">
-                             <img class="card-img-top" src="../images/Trainer_3.jpg" alt="trainer_3">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Expert Trainer</h4>
-                            <p class="card-text">Lucas P.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+       
+
+
+
+    </div>
+
+
+     
+
+</section>
+
+       
+
     
+
+
+
+<section class="courses" id="courses">
+    <div class="heading">Our <span>Courses</span></div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="../images/fitness-3502830_1920.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Weight lifting</h3>
+                <button id="link_1" class="link-btn-1" >Read More</button>
+                <p id="weight_lifting" class="btnText"> Join our 1 hour weight lifting class to help build muscles burn body fat, strenghten your joints and reduce injury risk. This exercise also helps improve your heart health hence greatly reducing the risk or developing heart failures. </p>
+            </div>
         </div>
-    </section>
-    <section class="pricing" id="pricing">
-        <div><h3>Find the <span>perfect plan</span></h3></div>
-        <div class="box-container">
-            <div class="box">
-                <h3>Basic Plan</h3>
-                <div class="price"><span>$</span>30<span>/mo</span></div>
-                <a href="#" class="link-btn">choose plan</a>
-                <div class="list">
+        <div class="box">
+            <div class="image">
+                <img src="../images/yoga-3053487_1920.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Yoga</h3>
+                <button id="link_2" class="link-btn-2">Read More</button>
+                <p id="yoga" class="btnText"> Besides increasing flexibility, Yoga enhances athletic perfomance at the same time improving respiration. Join us today!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="../images/jogging-1509003_1920.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Aerobics</h3>
+                <button id="link_3" class="link-btn-3">Read More</button>
+                <p id="aerobics" class="btnText"> This exercise is well known to better control blood sugar and in weight management and/or weight loss. </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="../images/girl-3253532_1920.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Boxing</h3>
+                <button id="link_4" class="link-btn-4">Read More</button>
+                <p id="boxing" class="btnText"> Join our 1 hour daily boxing classes that aim in improving cardiovascular health, overall body strength and hand-eye cordination. </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="../images/training-828760_1920.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Leg Work Outs</h3>
+                <button id="link_5" class="link-btn-5">Read More</button>
+                <p id="legwork" class="btnText"> Go for hikes without the fear of experiencing long muscle stiffness. Join us today from Monday to Saturday for 1 hour of leg work!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="../images/fitness.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <span> <i class="fas fa-calendar"></i> mon - sat </span>
+                    <span> <i class="fas fa-clock"></i> 1 hour </span>
+                </div>
+                <h3>Treadmill</h3>
+                <button id="link_6" class="link-btn-6">Read More</button>
+                <p id="biceps" class="btnText"> Tread mills helps build muscles, burn body fat, strenghten your joints and reduce injury risk. This exercise also helps improve your heart health hence greatly reducing the risk or developing heart failures.</p>
+                
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+<section class="trainers" id="trainers">
+        <div class="trainers-heading"><a href="#">Our <span>Trainers</span></a></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card trainer">
+                    <div class="restrain">
+                        <img class="card-img-top" src="../images/Trainer_1.jpg" alt="trainer_!">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title">Expert</h4>
+                        <p class="card-text"> Angelina Joe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card trainer">
+                    <div class="restrain">
+                        <img class="card-img-top" src="../images/Trainer_2.jpg" alt="trainer_2">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title">Expert Trainer</h4>
+                        <p class="card-text">Peter Ken</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card trainer">
+                    <div class="restrain">
+                         <img class="card-img-top" src="../images/Trainer_3.jpg" alt="trainer_3">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Expert Trainer</h4>
+                        <p class="card-text">Lucas P.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="pricing" id="pricing">
+    <div><h3>Find the <span>perfect plan</span></h3></div>
+    <div class="box-container">
+        <div class="box">
+            <h3>Basic Plan</h3>
+            <div class="price"><span>$</span>30<span>/mo</span></div>
+            <a href="#" class="link-btn">choose plan</a>
+            <div class="list">
+            <p> <i class="fas fa-check"></i> personal training </p>
+            <p> <i class="fas fa-check"></i> classes per week </p>
+            <p> <i class="fas fa-check"></i> access to gym </p>
+            <p> <i class="fas fa-times"></i> protien powder </p>
+            <p> <i class="fas fa-times"></i> membership </p>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Premium Plan</h3>
+            <div class="price"><span>$</span>60<span>/mo</span></div>
+            <a href="#" class="link-btn">choose plan</a>
+            <div class="list">
                 <p> <i class="fas fa-check"></i> personal training </p>
                 <p> <i class="fas fa-check"></i> classes per week </p>
                 <p> <i class="fas fa-check"></i> access to gym </p>
-                <p> <i class="fas fa-times"></i> protien powder </p>
+                <p> <i class="fas fa-check"></i> protien powder </p>
                 <p> <i class="fas fa-times"></i> membership </p>
-                </div>
-            </div>
-            <div class="box">
-                <h3>Premium Plan</h3>
-                <div class="price"><span>$</span>60<span>/mo</span></div>
-                <a href="#" class="link-btn">choose plan</a>
-                <div class="list">
-                    <p> <i class="fas fa-check"></i> personal training </p>
-                    <p> <i class="fas fa-check"></i> classes per week </p>
-                    <p> <i class="fas fa-check"></i> access to gym </p>
-                    <p> <i class="fas fa-check"></i> protien powder </p>
-                    <p> <i class="fas fa-times"></i> membership </p>
-                </div>
-            </div>
-            <div class="box">
-                <h3>Basic Plan</h3>
-                <div class="price"><span>$</span>90<span>/mo</span></div>
-                <a href="#" class="link-btn">choose plan</a>
-                <div class="list">
-                    <p> <i class="fas fa-check"></i> personal training </p>
-                    <p> <i class="fas fa-check"></i> classes per week </p>
-                    <p> <i class="fas fa-check"></i> access to gym </p>
-                    <p> <i class="fas fa-check"></i> protien powder </p>
-                    <p> <i class="fas fa-check"></i> membership </p>
-                </div>
             </div>
         </div>
+        <div class="box">
+            <h3>Basic Plan</h3>
+            <div class="price"><span>$</span>90<span>/mo</span></div>
+            <a href="#" class="link-btn">choose plan</a>
+            <div class="list">
+                <p> <i class="fas fa-check"></i> personal training </p>
+                <p> <i class="fas fa-check"></i> classes per week </p>
+                <p> <i class="fas fa-check"></i> access to gym </p>
+                <p> <i class="fas fa-check"></i> protien powder </p>
+                <p> <i class="fas fa-check"></i> membership </p>
+            </div>
+        </div>
+    </div>
 
-    </section>
-    <section class="register-now">
-        <div class="container register">
-            <div><h3>Register <span>Now</span></h3></div>
-            <div class="register-content">
-                <form id="form-submit" target= "_blank" action="https://gmail.us14.list-manage.com/subscribe/post?u=97bfcbff417492fd5265343e9&amp;id=79b35713aa" method="post">
-                    <div class="row">
-                        <div class="col">
+</section>
+<section class="register-now">
+    <div class="container register">
+        <div><h3>Register <span>Now</span></h3></div>
+        <div class="register-content">
+            <form id="form-submit" target= "_blank" action="https://gmail.us14.list-manage.com/subscribe/post?u=97bfcbff417492fd5265343e9&amp;id=79b35713aa" method="post">
+                <div class="row">
+                    <div class="col">
 
-                            <input class= "form-control" name = "FNAME" type="text" id="name" placeholder="First Name"><br>
+                        <input class= "form-control" name = "FNAME" type="text" id="name" placeholder="First Name"><br>
 
-                        </div>
-                        <div class="col">
-                            <input class = "form-control" id="last_name" name = "LNAME" type="text" placeholder="Last Name">
-                        </div><br>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <input class= "form-control" name = "EMAIL" type="text" id="email" placeholder="Email">
-                        </div>
-                        <div class="col">
-                            <input class = "form-control" id="phone_number" name = "PHONE" type="number" placeholder="Phone Number">
-                        </div><br>
-
-                        <div class="form-group"><br>
-                            <textarea class="form-control" name="COMMENTS" id="comments" cols="30" rows="10"></textarea>
-
-                        </div><br>
+                    <div class="col">
+                        <input class = "form-control" id="last_name" name = "LNAME" type="text" placeholder="Last Name">
                     </div><br>
-                    <div class="button-holder">
-                        <button type="submit" id= "register-button" class="btn btn-secondary">Register Now</button>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input class= "form-control" name = "EMAIL" type="text" id="email" placeholder="Email">
                     </div>
-                </form>
-            </div>
-        </div>
+                    <div class="col">
+                        <input class = "form-control" id="phone_number" name = "PHONE" type="number" placeholder="Phone Number">
+                    </div><br>
 
-    </section>
+                    <div class="form-group"><br>
+                        <textarea class="form-control" name="COMMENTS" id="comments" cols="30" rows="10"></textarea>
+
+                    </div><br>
+                </div><br>
+                <div class="button-holder">
+                    <button type="submit" id= "register-button" class="btn btn-secondary">Register Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+    
     
     
     

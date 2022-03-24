@@ -7,101 +7,189 @@
 
 }
 
+
 :root {
     --orange: #ff5421;
 }
 
 
+/* Scroll Bar  */
+::-webkit-scrollbar
+{
+    width: 6px;
+}
+::-webkit-scrollbar-track
+{
+    background: black;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #ff5421;
+    border-radius: 8px;
+}
+
+/* End Scroll Bar  */
+
+
+
+/* NavBar */
+.menutog
+{
+    width: 20px;
+}
+
+#Navbrand
+{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#Navbrand span
+{
+    color: #ff5421;
+}
+
+
+.nav-item a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.nav-item a:hover
+{
+    color: #ff5421;
+    transition: 1s;
+}
+
+/* End of NavBar */
+
+
+
+
+
+
+
+
+
+
+
+
 .aboutUs {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),url(../images/barbell-1839087_1920.jpg);
+    background-image: linear-gradient(rgba(4, 9, 20, 0.2), rgba(4, 9, 5, 5)),url(../images/barbell.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+
 
 }
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0.5rem 2%;
-    
-    
-}
-.nav-header{
-    position:fixed;
+
+#navBar{
+    /* position:fixed; */
     top:0;
     width: 100%;
     z-index: 2;
 
 
 }
-.aboutUs{
-    padding-top: 50px;
-}
 
-.aboutUs .logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2.5rem;
-    margin-left: 1rem;
-    float: left;
-   
-}
 
-.aboutUs .navLanding2 a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    margin-left: 1.5rem;
-}
 
-.logo a span {
-    color: var(--orange);
-}
-.aboutUs1 h2{
-    text-align: center;
-    font-size: 3.4rem;
-    color: #fff;
-}
-
-.aboutUs1 .text{
-    color: #fff;
-    font-size: 2rem;
-    margin-top: 5rem;
-}
-.aboutUs1 .text p{
-    text-align: center;
-    font-size: 2.8rem;
-    color: #FEEDED;
+#aboutUs1
+{
+    color: whitesmoke;
+    font-size: 40px;
     
 }
-.aboutUs1 .text ul{
-    text-align: center;
-    align-items: center;
-    margin-top: 5rem;
+
+#longtext,#longtext2
+{
+    color: whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;    
+
 }
-.aboutUs1 span{
-    color: var(--orange);
+
+.abouttexts
+{
+    margin-bottom: 7%;
 }
-.aboutUs1 .text ul i{
-    color: var(--orange);
+
+/* #ccards
+{
+    margin-top: 5%;
+} */
+
+
+
+
+.card
+{
+    /* border:1px solid red; */
+    margin-left: 5%;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+
 }
-.aboutUs1 .aboutbtn{
-    font-size:2.5rem;
-    text-decoration: none;
-    color: white;
-    background-color: var(--orange);
-    padding: .5rem 1rem;
-    border-radius: .7rem;
-    
-    
+
+.card-group
+{
+    background-color: transparent;
+    border: none;
+
 }
-.aboutUs1 .aboutbtn:hover{
-    background: #fff;
-    color: var(--orange);  
+
+
+
+.card-group::-webkit-scrollbar
+{
+    display: none;
 }
+
+.card-img-top
+{
+    filter: brightness(40%);
+}
+
+.card-text
+{
+    color: whitesmoke;
+}
+
+.card-title
+{
+    color: whitesmoke;
+}
+
+.card-title span
+{
+    color: #ff5421;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .courses{
     background-color: #171717;
     padding: 2rem 3rem;
