@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Basic Plan</title>
     <link rel="stylesheet" href="./css/signup.css">
 </head>
+
 <body>
     <div class="bnav">
         <nav>
@@ -17,69 +19,72 @@
             </ul>
         </nav>
     </div>
-    <table class="tabledetails">
-        <tr>
-            <th></th>
-            <th>Basic plan</th>
-            <th></th>
-        </tr>
-        <tr>
-            <td><input type="text" id="firstname" name="fname" placeholder="First name" required></td>
-            <td><input type="text" id="lastname" name="lname" placeholder="Last name" required></td>
-            <td></td>
-        </tr>
-        <br>
-        <tr>
-            <td><input type="text" id="emailaddress" name="email" placeholder="Email address" required></td>
-            <td></td>
-            <td></td>
+    <div class="basicheader"><h2>Basic plan</h2></div>
+    
+    <div class="tables">
+          
 
-        </tr>
-        <tr>
-            <td><input type="text" id="phonenumber" name="pnumber" placeholder="Phone number" required></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><input id="physial" type="radio" name="physical" placeholder="physical" required>
-            Physical</td>
-            <td><input id="physial" type="radio" name="online" placeholder="online" required>
-                Online</td>
+        <table class="tabledetails tableclass">
+            
+            <tr>
+                <td><input type="text" id="firstname" name="fname" placeholder="First name" required></td>
+                <td><input type="text" id="lastname" name="lname" placeholder="Last name" required></td>
                 <td></td>
-        </tr>
-    </table>
-    <table class="tablesub">
-        <tr>
-            <th>Your Subscription</th>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="text" id="emailaddress" name="email" placeholder="Username" required></td>
+                <td><input type="text" id="password" name="email" placeholder=" choosePassword" required></td>
+                <td></td>
 
-        </tr>
-        <tr>
-            <td>Basic</td>
-            <td>USD 30</td>
-        </tr>
-        <hr>
-        <tr>
-            <td>Accessories</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Dumbel(5pieces)</td>
-            <td>USD 30</td>
-        </tr>
-        <hr>
-        <tr>
-            <td>Total</td>
-            <td>USD 60</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="phonenumber" name="pnumber" placeholder="Phone number" required></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input id="physial" type="radio" name="physical" placeholder="physical" required>
+                    Physical</td>
+                <td><input id="physial" type="radio" name="physical" placeholder="online" required>
+                    Online</td>
+                <td></td>
+            </tr>
 
-        </tr>
-        <tr>
-            <td>Mode of payment</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><input id="car" type="radio" name="card" value="card" required> Card</td>
-                <td><input id="mpesa" type="radio" name="mpesa" value="mpesa" required> Mpesa</td>
-        </tr>
-    </table>
+        </table>
+        <table class="tablesub tableclass">
+            <tr>
+                <th>Your Subscription</th>
+
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>USD 30</td>
+            </tr>
+           
+
+            <tr>
+                <td>Total</td>
+                <td>USD 30</td>
+
+            </tr>
+            <tr>
+                <td>Mode of payment</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input id="car" type="radio" name="card" value="card" required> Card</td>
+                <td><input id="mpesa" type="radio" name="card" value="mpesa" required> Mpesa</td>
+            </tr>
+            <tr>
+                <td><button id="proceed">Proceed</button></td>
+            </tr>
+            
+        </table>
+       
+    </div>
+
+    
 </body>
+
 </html>

@@ -11,18 +11,18 @@ body{
 }
 .form-visa{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
      background-color: gray;
      color: black;
      min-height: 100px;
      width: 920px;
      margin: 100px;
      border-radius: 5px;
-     ;
+     
 }
      
 .form-visa p{
-    display: flex;
+  
     text-align: left;
     font-size: 20px;
 
