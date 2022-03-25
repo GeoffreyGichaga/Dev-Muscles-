@@ -11,84 +11,138 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand">Dev Muscles</a>
-          
-        </div>
-      </nav>
-
-
-
-
-    <section class="headerSidenav">
-        <div class="sidebar">
-            <div class="upperSection">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Resourses</a></li>
-                    <li><a href="#">Subscription</a></li>
-                </ul>
-            </div>
-            <div class="lowerSection">
-                <ul>
-                    <li><a href="#">Settings</a></li>
-                    <li><a id="logout" href="#">Logout</a></li>
+    <nav id="navbar1" class="navbar navbar-light bg-light">
         
-                </ul>
-            </div>
-        
-        </div>
-    </section>
-    <div class="sectionMain">
-        <div class="leftSection">
-            <div class=" bannerimg box">
-                <div>
-                    <img class="img-responsive" src="../images/banner.jpg" alt="">
+          <a class="navbar-brand" id="brnadname">Dev Muscles</a>
+
+          <a id="logout" href="../index.html">Logout</a>
+
+
+    
+    </nav>
+
+    
+
+    <div class="container">
+        <div  class="row mt-5">
+            <div class="col ">
+                <div class="card" id="banner">
+                    <img  src="../images/anastase.jpg"  alt="">
+
                 </div>
+
             </div>
-            <div class="box overflowing">
-                <h3 class="middleHeader"> Current <span>Subscription</span></h3>
-                <div class="courses">
-                    <div class="course1 course">
-                        <div class="images" id="course1img">
-                            <img class="img-responsive" src="../images/img4.jpg" alt="">
-                        </div>
-                        <div class="images iframes"  id="iframe1">
-                            <iframe width="420" height="345" src="https://www.youtube.com/embed/xUm0BiZCWlQ">
-                            </iframe>
-                        </div>
-                        <h3>Weightlifting</h3>
-                    </div>
-                    <div class="course2 course">
-                        <div class="images" id="course2img">
-                            <img class="img-responsive" src="../images/img2.jpg" alt="">
-                        </div>
-                        <div class="images iframes" id="iframe2">
-                            <iframe width="420" height="345" src="https://www.youtube.com/embed/vInbqsSevS8">
-                            </iframe>
-                        </div>
-                        <h3>Aerobics</h3>
-                    </div>
-                    <div class="course3 course">
-                        <div class="images" id="course3img">
-                            <img class="img-responsive" src="../images/img3.jpg" alt="">
-                        </div>
-                        <div class="images iframes" id="iframe3">
-                            <iframe width="420" height="345" src="https://www.youtube.com/embed/82slwrFOAGo">
-                            </iframe>
-                        </div>
-                        <h3>Yoga</h3>
-        
-                    </div>
-                </div>
-            </div>
-        
         </div>
+
+
+        <!-- Videos -->
+
+        <div class="card-group mt-5">
+            <div class="col">
+                <div class="card">
+                    <img src="../images/carl.jpg" id="l1" class="card-img-top" alt="">
+
+                    <div class="ratio ratio-16*9"  id="iframe1">
+                        <iframe width="420" height="345" src="https://www.youtube.com/embed/xUm0BiZCWlQ" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Yoga</h4>
+                        <p class="card-text">
+                            Join Vicky as she takes you through a yoga session
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button id="img1" class="joinbtn">Join Session</button>
+                    </div>
+
+
+                </div>
+                
+
+            </div>
+
+
+            <div class="col">
+                <div class="card">
+                    <img src="../images/carl.jpg" class="card-img-top" alt="">
+                    
+
+                    <div class="card-body">
+                        <h4 class="card-title">Yoga</h4>
+                        <p class="card-text">
+                            Join Vicky as she takes you through a yoga session
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="joinbtn">Join Session</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col">
+                <div class="card">
+                    <img src="../images/carl.jpg" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Yoga</h4>
+                        <p class="card-text">
+                            Join Vicky as she takes you through a yoga session
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="joinbtn">Join Session</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+            
+        
 
     </div>
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+    <script src="../js/dash.js"></script>
 </body>
 </html>
