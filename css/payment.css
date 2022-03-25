@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+     background-color: #171717; 
+     color: white; 
+     
+}
+
+.menutog
+{
+    width: 20px;
+}
+
+.nav-link
+{
+    color: black;
+}
+
+.nav-link:hover
+{
+    color: #ff5421;
+}
+
+/* .nav-tabs:hover
+{
+    border: 2px solid #ff5421;
+} */
+
+.form-label
+{
+    color: black;
+}
+
+label
+{
+    color: black;
+}
+
+#pabody
+{
+    color: black;
+}
+
+
+.paymentoptions
+{
+    width: 30%;
+}
+
+.paymentoptions2
+{
+    width: 13%;
+    height: 10%;
+
+}
+.paymentoptions3
+{
+    width: 12%;
+    height: 10%;
+}
+
+#proceed
+{
+    background-color: #ff5421;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+#proceed:hover
+{
+    background-color: black;
+    color: #ff5421;
+    transition: 1s;
+}

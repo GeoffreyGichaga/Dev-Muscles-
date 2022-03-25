@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+     background-color: black; 
+}
+.form-mpesa{
+    display: flex;
+    justify-content: center;
+     background-color: gray;
+     color: black;
+     min-height: 100px;
+     width: 720px;
+     margin: 100px;
+     border-radius: 5px;
+}
+     
+.form-mpesa p{
+    
+    font-size: 20px;
+    
+
+}
+.form-mpesa input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+} 
+.form-mpesa button{
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #ff5421;
+
+}
